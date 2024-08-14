@@ -59,7 +59,10 @@ defmodule HelloAsh.MixProject do
       {:gettext, "~> 0.20"},
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
-      {:bandit, "~> 1.5"}
+      {:bandit, "~> 1.5"},
+      {:ash, "~> 3.4"},
+      {:picosat_elixir, "~> 0.2"},
+      {:ash_postgres, "~> 2.1"}
     ]
   end
 

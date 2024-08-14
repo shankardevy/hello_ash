@@ -9,7 +9,8 @@ import Config
 
 config :hello_ash,
   ecto_repos: [HelloAsh.Repo],
-  generators: [timestamp_type: :utc_datetime]
+  generators: [timestamp_type: :utc_datetime],
+  ash_domains: [HelloAsh.Auth]
 
 # Configures the endpoint
 config :hello_ash, HelloAshWeb.Endpoint,
