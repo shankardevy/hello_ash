@@ -62,7 +62,8 @@ defmodule HelloAsh.MixProject do
       {:bandit, "~> 1.5"},
       {:ash, "~> 3.4"},
       {:picosat_elixir, "~> 0.2"},
-      {:ash_postgres, "~> 2.1"}
+      {:ash_postgres, "~> 2.1"},
+      {:ash_phoenix, "~> 2.1"}
     ]
   end
 

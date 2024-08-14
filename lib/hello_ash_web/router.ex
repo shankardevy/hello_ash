@@ -80,6 +80,7 @@ defmodule HelloAshWeb.Router do
       on_mount: [{HelloAshWeb.UserAuth, :mount_current_user}] do
       live "/users/confirm/:token", UserConfirmationLive, :edit
       live "/users/confirm", UserConfirmationInstructionsLive, :new
+      live "/groups/new", Groups.GroupLive, :create
     end
   end
 end
